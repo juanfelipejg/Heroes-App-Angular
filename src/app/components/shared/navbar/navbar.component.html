@@ -25,10 +25,10 @@
 
 
         </ul> 
-
-          <input class="form-control me-2" type="search" placeholder="Buscar héroe" aria-label="Search" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto>
+        <form id = "form" class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar héroe" aria-label="Search" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto>
           <button (click)="buscarHeroe(buscarTexto.value)"  class="btn btn-outline-success" type="button">Buscar</button>
-
+        </form>
       </div>
     </div>
   </nav>
